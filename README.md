@@ -15,6 +15,7 @@ The dataset that we used were:
 - [Docker](https://www.docker.com/) 
 - [Docker-compose](https://docs.docker.com/compose/)
 
+
 ## Instalation and usage
 Clone the repository and use docker compose to run the containers with the image of the Spark and Jupyter Notebook.
 ```bash
@@ -22,6 +23,13 @@ git clone https://github.com/alvarogonjim/DMLSDS.git
 cd DMLSDS/
 docker-compose up
 ```
+
+### WARNING! 
+
+The output in the terminal will be the URL of the notebook some users had problems to connect to the notebook using the format http://127.0.0.1:8888/?token=... **you have to replace 127.0.0.1 by localhost** like that:
+http://localhost:8888/?token=...
+
+
 ## Contributing
 Pull requests are welcome. If you have different solutions, please open an issue first to discuss what you would like to change.
 
